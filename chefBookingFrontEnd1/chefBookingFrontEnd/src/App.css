@@ -1,0 +1,31 @@
+.login{
+    height: 100vh;
+}
+
+#cook{
+    width: 100%;
+    margin-top: 200px;
+
+}
+.image-1 img{
+    width: 350px;
+    float: right;
+    margin-right: 200px;
+    filter: drop-shadow(10px 10px 10px #000);
+    transform: translatex(0px);
+    animation: float 3s ease-out infinite;   
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the opacity */
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Ensure it's above other content */
+  }
+  
+
+  

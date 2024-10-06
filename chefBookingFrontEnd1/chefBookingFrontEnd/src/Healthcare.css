@@ -1,0 +1,75 @@
+.helthcare{
+    margin: 10px;
+}
+.healthimg{
+    width: 100%;
+    height: 90vh;
+}
+.find{
+    position: absolute;
+    top: 82%;
+    left: 60%;
+    text-decoration: none;
+    background-color: #6a0dad; 
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.find:hover{
+    transform: scale(1.05);
+}
+.disease{
+    margin: 10px;
+}
+.disease h1{
+    padding: 30px;
+}
+.disease h1:hover{
+    text-decoration-color: burlywood;
+    text-decoration: underline;
+}
+
+table,th,td{
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 100%;
+    background-color: rgb(237, 233, 139);
+    
+}
+.gym{
+    margin: 10px;
+}
+.gym h1{
+    padding: 30px;
+}
+.gym h1:hover{
+    text-decoration: underline;
+}
+.gymimg{
+  width: 500px;
+  height: 75vh;
+  border-radius: 20px;
+}
+.gymtable{
+  float: right;
+  width: 50%;
+  height: 25vh;
+  
+}
+.gymtable,th,td{
+
+    font-size: 15px;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}

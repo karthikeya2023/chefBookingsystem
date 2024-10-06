@@ -1,0 +1,16 @@
+.header{
+    background-color:beige;
+    text-align: center;
+    border-bottom: none;
+    
+}
+.title{
+    color:#8e44ad;
+    font-size:38px;
+    font-weight: lighter;
+    border-bottom: #8e44ad;
+}
+.btn{
+    margin-bottom: 80px;
+
+}

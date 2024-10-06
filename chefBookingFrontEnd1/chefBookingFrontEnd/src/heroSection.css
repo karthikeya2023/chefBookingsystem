@@ -1,0 +1,52 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.hero-content {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #6a0dad; /* Adjust to match your purple */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #141313; /* Adjust to match your brown color */
+  margin-bottom: 2rem;
+}
+
+.discover {
+  text-decoration: none;
+  background-color: #6a0dad; /* Adjust to match your purple */
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.hero-image-container {
+  width: 100%;
+  max-width: 800px; /* Adjust based on your preference */
+  margin-top: 2rem;
+  object-fit: cover;
+  
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

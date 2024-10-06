@@ -1,0 +1,122 @@
+.header {
+  background-color: #ffffff;
+}
+
+.header-top {
+  text-align: center;
+  justify-content: center;
+  padding: 1px 0;
+}
+
+.logo-text {
+  align-items: center;
+  justify-content: center;
+  color: #6a0dad;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+
+}
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.logo-image {
+  width: 100px;
+  height: 70px;
+}
+
+.user-photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-menu a {
+  color: #6a0dad;
+  text-decoration: none;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.nav-menu a:hover{
+  color: black;
+  transform: scale(1.09);
+  text-decoration:underline;
+  text-decoration-color: #6a0dad;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  color: #6a0dad;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.user-profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-initial {
+  background-color: #6a0dad;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropdown-menu a, .dropdown-menu button {
+  color: #6a0dad;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+
+.login-btn {
+  background-color: #6a0dad;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header-border {
+  height: 2px;
+  background-color: #6a0dad;
+}

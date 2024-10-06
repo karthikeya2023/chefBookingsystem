@@ -1,0 +1,81 @@
+.chefs-section {
+    background-color: white;
+    padding: 40px 0;
+    border-top: 1px #6a0dad; 
+  }
+  
+  .chefs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: none;
+
+  }
+  
+  .chefs-header h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color:#6a0dad;
+    font-weight: lighter;
+    margin: 0;
+    
+
+  }
+  
+  .all-chefs-link {
+    font-size: 18px;
+    color: #6a0dad;
+    text-decoration: none;
+  }
+  
+  .chefs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .chef-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px black;
+
+  }
+  .chef-card:hover{
+    transform: scale(1.08);
+  }
+  
+  .chef-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .chef-name {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 5px;
+  }
+  
+  .chef-email, .chef-mobile {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .chefs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chefs-grid {
+      grid-template-columns: 1fr;
+    }
+  }
